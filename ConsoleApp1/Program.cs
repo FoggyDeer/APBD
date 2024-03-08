@@ -5,13 +5,13 @@ Console.WriteLine(getAvg(new int[]{1, 2, 3, 4, 5}));
 Console.WriteLine(GetMax(new int[]{1,2,3,4,5,11,22,55,0}));
 static double getAvg(int[] arr)
 {
-    int sum = 0;
-    foreach (var number in arr)
+    int suma = 0;
+    foreach (var num in arr)
     {
-        sum += number;
+        suma += num;
     }
 
-    return (double)sum / arr.Length;
+    return (double)suma / arr.Length;
 }
 
 static int GetMax(int[] arr)
